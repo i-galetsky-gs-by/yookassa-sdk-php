@@ -21,7 +21,7 @@
     "ext-curl": "*",
     "ext-json": "*",
     "ext-mbstring": "*",
-    "yoomoney/yookassa-sdk-validator": "^1.0",
+    "yoomoney/yookassa-sdk-validator": "1.0.3.x-dev",
     "php-ds/php-ds": "^1.4",
     "psr/log": "^2.0 || ^3.0"
   },
@@ -35,6 +35,12 @@
     "phpstan/phpstan": "^1.10",
     "yoomoney/yookassa-fakerphp": "^1.0"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/i-galetsky-gs-by/yookassa-sdk-validator"
+    }
+  ],
   "scripts": {
     "test": [
       "@phpunit",
